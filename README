@@ -25,6 +25,7 @@ SUBROUTINES
 ERRORS
      check_version():
              Parameter '%s' isn't right Perl version.
+                     Error: %s
                      Value: %s
 
 EXAMPLE1

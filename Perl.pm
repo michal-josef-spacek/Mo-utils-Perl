@@ -82,6 +82,7 @@ Returns undef.
 
  check_version():
          Parameter '%s' isn't right Perl version.
+                 Error: %s
                  Value: %s
 
 
