@@ -4,7 +4,7 @@ use warnings;
 use English;
 use Error::Pure::Utils qw(clean);
 use Mo::utils::Perl qw(check_version);
-use Test::More 'tests' => 5;
+use Test::More 'tests' => 6;
 use Test::NoWarnings;
 
 # Test.
@@ -23,6 +23,17 @@ eval {
 };
 is($EVAL_ERROR, "Parameter 'key' isn't right Perl version.\n",
 	"Parameter 'key' isn't right Perl version (bad).");
+clean();
+
+# Test.
+$self = {
+	'key' => '',
+};
+eval {
+	check_version($self, 'key');
+};
+is($EVAL_ERROR, "Parameter 'key' isn't right Perl version.\n",
+	"Parameter 'key' isn't right Perl version (blank string).");
 clean();
 
 # Test.
