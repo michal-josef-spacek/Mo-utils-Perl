@@ -37,7 +37,7 @@ EXAMPLE1
      my $self = {
              'key' => '0.01',
      };
-     check_hash($self, 'key');
+     check_version($self, 'key');
 
      # Print out.
      print "ok\n";
