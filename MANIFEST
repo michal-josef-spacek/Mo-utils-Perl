@@ -20,5 +20,6 @@ Perl.pm
 README
 t/Mo-utils-Perl/01-use.t
 t/Mo-utils-Perl/02-version.t
+t/Mo-utils-Perl/03-check_version.t
 xt/Mo-utils-Perl/01-pod_coverage.t
 xt/Mo-utils-Perl/02-pod.t
