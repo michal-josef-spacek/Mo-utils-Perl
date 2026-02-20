@@ -18,6 +18,7 @@ MANIFEST			This list of files
 META.yml
 Perl.pm
 README
+SIGNATURE
 t/Mo-utils-Perl/01-use.t
 t/Mo-utils-Perl/02-version.t
 t/Mo-utils-Perl/03-check_version.t
